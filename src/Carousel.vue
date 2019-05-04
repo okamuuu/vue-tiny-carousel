@@ -26,7 +26,7 @@
 
 <script>
 /* eslint-disable no-console  */
-import debounce from "./utils/debounce";
+import debounce from "lodash.debounce"
 import Navigation from "./Navigation.vue";
 
 export default {
@@ -41,9 +41,6 @@ export default {
     );
     this.setSlideCount()
     this.computeCarouselWidth();
-  },
-  beforeUpdate() {
-    // this.computeCarouselWidth();
   },
   provide() {
     return {

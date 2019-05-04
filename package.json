@@ -2,5 +2,11 @@
   "name": "@okamuuu/vue-tiny-carousel",
   "version": "1.0.0",
   "main": "src/index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@vue/cli": "^3.7.0"
+  }
 }
